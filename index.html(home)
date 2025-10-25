@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>SOK Beauty Salon Cyprus & Dubai | Premium Hair, Makeup & Spa Services</title>
+    <meta name="description" content="Award-winning beauty salon in Limassol, Cyprus and Dubai, UAE. Expert hair styling, bridal makeup, spa treatments. Book online. ⭐ 5.0 rating from 30+ reviews.">
+    <meta name="keywords" content="beauty salon Cyprus, beauty salon Dubai, hair salon Limassol, bridal makeup Cyprus, spa Dubai, hair styling Limassol, best beauty salon Cyprus">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://sokbeautysalon.com/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="SOK Beauty Salon - Premium Beauty Services Cyprus & Dubai">
+    <meta property="og:description" content="Luxury beauty salon offering hair, makeup, bridal, and spa services in Limassol and Dubai.">
+    <meta property="og:image" content="https://sokbeautysalon.com/images/og-image.jpg">
+    <meta property="og:url" content="https://sokbeautysalon.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SOK Beauty Salon Cyprus & Dubai">
+    <meta name="twitter:description" content="Premium beauty services in Limassol and Dubai">
+    <meta name="twitter:image" content="https://sokbeautysalon.com/images/twitter-card.jpg">
+    
+    <!-- Geo Meta Tags -->
+    <meta name="geo.region" content="CY-05">
+    <meta name="geo.placename" content="Limassol">
+    <meta name="geo.position" content="34.7094;33.0707">
+    <meta name="ICBM" content="34.7094, 33.0707">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" as="image" href="images/hero-bg.webp">
+    
+    <!-- JSON-LD Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "SOK Beauty Salon",
+        "image": "https://sokbeautysalon.com/images/logo.png",
+        "url": "https://sokbeautysalon.com",
+        "telephone": "+35797445595",
+        "priceRange": "€€-€€€",
+        "address": [{
+            "@type": "PostalAddress",
+            "streetAddress": "Vrahimis Building, 59 Ayios Athanasios",
+            "addressLocality": "Limassol",
+            "postalCode": "4102",
+            "addressCountry": "CY"
+        },
+        {
+            "@type": "PostalAddress",
+            "streetAddress": "Al Thuraya Tower 1, Media City",
+            "addressLocality": "Dubai",
+            "addressCountry": "AE"
+        }],
+        "geo": [{
+            "@type": "GeoCoordinates",
+            "latitude": 34.7094,
+            "longitude": 33.0707
+        }],
+        "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+            "opens": "09:00",
+            "closes": "20:00"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "10:00",
+            "closes": "18:00"
+        }],
+        "sameAs": [
+            "https://www.instagram.com/sok.beauty.cy",
+            "https://www.instagram.com/sokbeauty.dubai"
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "30"
+        }
+    }
+    </script>
+    
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://sokbeautysalon.com/"
+        }]
+    }
+    </script>
+    
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "SOK Beauty Salon",
+        "url": "https://sokbeautysalon.com",
+        "logo": "https://sokbeautysalon.com/images/logo.png",
+        "contactPoint": [{
+            "@type": "ContactPoint",
+            "telephone": "+35797445595",
+            "contactType": "customer service",
+            "areaServed": "CY",
+            "availableLanguage": ["English", "Greek"]
+        }]
+    }
+    </script>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <a href="/" class="logo" aria-label="SOK Beauty Salon Home">
+                <picture>
+                    <source srcset="images/logo.webp" type="image/webp">
+                    <img src="images/logo.png" alt="SOK Beauty Salon Logo" width="150" height="50">
+                </picture>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="/" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="hair-styling.html">Hair Styling</a></li>
+                <li><a href="makeup-bridal.html">Makeup & Bridal</a></li>
+                <li><a href="spa-wellness.html">Spa & Wellness</a></li>
+                <li><a href="gallery-testimonials.html">Gallery</a></li>
+                <li><a href="contact-booking.html" class="btn-book">Book Now</a></li>
+            </ul>
+            <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <picture>
+            <source media="(max-width: 768px)" srcset="images/hero-mobile.webp">
+            <source srcset="images/hero-desktop.webp" type="image/webp">
+            <img src="images/hero.jpg" alt="SOK Beauty Salon Interior" class="hero-bg" loading="eager">
+        </picture>
+        <div class="hero-content">
+            <h1>Premium Beauty Salon in Cyprus & Dubai</h1>
+            <p class="hero-subtitle">Transform Your Beauty Journey with Expert Hair, Makeup & Spa Services</p>
+            <div class="hero-cta">
+                <a href="contact-booking.html" class="btn btn-primary">Book Appointment</a>
+                <a href="services.html" class="btn btn-secondary">View Services</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">5.0⭐</span>
+                    <span class="stat-label">Rating</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">30+</span>
+                    <span class="stat-label">Reviews</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">Locations</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Overview -->
+    <section class="services-overview" aria-labelledby="services-heading">
+        <div class="container">
+            <h2 id="services-heading">Our Premium Services</h2>
+            <p class="section-subtitle">Experience luxury beauty treatments in Limassol and Dubai</p>
+            
+            <div class="services-grid">
+                <article class="service-card">
+                    <picture>
+                        <source srcset="images/hair-styling.webp" type="image/webp">
+                        <img src="images/hair-styling.jpg" alt="Professional hair styling service" loading="lazy" width="400" height="300">
+                    </picture>
+                    <h3>Hair Styling</h3>
+                    <p>Expert cuts, coloring, and treatments for all hair types</p>
+                    <a href="hair-styling.html" class="btn-link">Learn More →</a>
+                </article>
+                
+                <article class="service-card">
+                    <picture>
+                        <source srcset="images/bridal-makeup.webp" type="image/webp">
+                        <img src="images/bridal-makeup.jpg" alt="Bridal makeup services" loading="lazy" width="400" height="300">
+                    </picture>
+                    <h3>Bridal Makeup</h3>
+                    <p>Flawless bridal looks for your special day</p>
+                    <a href="makeup-bridal.html" class="btn-link">Learn More →</a>
+                </article>
+                
+                <article class="service-card">
+                    <picture>
+                        <source srcset="images/spa-wellness.webp" type="image/webp">
+                        <img src="images/spa-wellness.jpg" alt="Spa and wellness treatments" loading="lazy" width="400" height="300">
+                    </picture>
+                    <h3>Spa & Wellness</h3>
+                    <p>Relaxing massages and rejuvenating treatments</p>
+                    <a href="spa-wellness.html" class="btn-link">Learn More →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Locations -->
+    <section class="locations" aria-labelledby="locations-heading">
+        <div class="container">
+            <h2 id="locations-heading">Visit Our Salons</h2>
+            
+            <div class="locations-grid">
+                <div class="location-card">
+                    <h3>Cyprus - Limassol</h3>
+                    <address>
+                        Vrahimis Building, 59 Ayios Athanasios<br>
+                        Limassol 4102, Cyprus
+                    </address>
+                    <p>📞 <a href="tel:+35797445595">+357 97 445595</a></p>
+                    <p>⏰ Mon-Sat: 9AM-8PM, Sun: 10AM-6PM</p>
+                    <a href="https://maps.app.goo.gl/TemhU7FJ2k6vSTnx9" target="_blank" rel="noopener" class="btn-map">View on Map</a>
+                </div>
+                
+                <div class="location-card">
+                    <h3>Dubai - Media City</h3>
+                    <address>
+                        Al Thuraya Tower 1<br>
+                        Media City, Dubai, UAE
+                    </address>
+                    <p>📞 <a href="tel:+971XXXXXXXX">+971 XX XXXXXXX</a></p>
+                    <p>⏰ Daily: 10AM-10PM</p>
+                    <a href="#" target="_blank" rel="noopener" class="btn-map">View on Map</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Snippet -->
+    <section class="testimonials-home" aria-labelledby="testimonials-heading">
+        <div class="container">
+            <h2 id="testimonials-heading">What Our Clients Say</h2>
+            
+            <div class="testimonials-slider">
+                <blockquote class="testimonial">
+                    <p>"Best beauty salon in Cyprus! Amazing hair coloring and styling."</p>
+                    <cite>- Maria K., Limassol</cite>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </blockquote>
+                
+                <blockquote class="testimonial">
+                    <p>"Professional bridal makeup that lasted all day. Highly recommend!"</p>
+                    <cite>- Elena G., Dubai</cite>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                </blockquote>
+            </div>
+            
+            <a href="gallery-testimonials.html" class="btn btn-secondary">View All Reviews</a>
+        </div>
+    </section>
+
+    <!-- Instagram Feed -->
+    <section class="instagram-feed" aria-labelledby="instagram-heading">
+        <div class="container">
+            <h2 id="instagram-heading">Follow Us on Instagram</h2>
+            <div class="instagram-links">
+                <a href="https://www.instagram.com/sok.beauty.cy" target="_blank" rel="noopener">@sok.beauty.cy</a>
+                <a href="https://www.instagram.com/sokbeauty.dubai" target="_blank" rel="noopener">@sokbeauty.dubai</a>
+            </div>
+            <!-- Instagram Feed Widget -->
+            <div id="instagram-feed-widget"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>SOK Beauty Salon</h3>
+                    <p>Premium beauty services in Cyprus and Dubai</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/sok.beauty.cy" aria-label="Instagram Cyprus"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/35797445595" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery-testimonials.html">Gallery</a></li>
+                        <li><a href="contact-booking.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="hair-styling.html">Hair Styling</a></li>
+                        <li><a href="makeup-bridal.html">Makeup & Bridal</a></li>
+                        <li><a href="spa-wellness.html">Spa & Wellness</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <p>Cyprus: +357 97 445595</p>
+                    <p>Dubai: +971 XX XXXXXXX</p>
+                    <p>info@sokbeautysalon.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 SOK Beauty Salon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Widget -->
+    <div class="whatsapp-widget">
+        <a href="https://wa.me/35797445595" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js" defer></script>
+</body>
+</html>
